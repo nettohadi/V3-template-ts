@@ -3,7 +3,7 @@ import {getLanguage} from '../helpers/url';
 import {isDefinedNotNull} from '../helpers/common';
 import V3Factory from '../helpers/V3';
 import type {ServiceType, CriteriaType, yesNoOption, AvailabilityType, RequestType} from "./types";
-import {noImage} from './sharedState';
+import {noImage} from '../helpers/consts';
 
 const serviceStore = writable([]);
 const isLoading = writable(false);
